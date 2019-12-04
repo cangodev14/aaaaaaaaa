@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Advertisements;
-using AppodealAds.Unity.Api;
-using AppodealAds.Unity.Common;
+//using AppodealAds.Unity.Api;
+//using AppodealAds.Unity.Common;
 
 public class bannerload : MonoBehaviour
 {
@@ -27,7 +27,7 @@ public class bannerload : MonoBehaviour
 
             if (PlayerPrefs.GetInt("naebka") > 4)
             {
-                Appodeal.show(Appodeal.INTERSTITIAL);
+             //   Appodeal.show(Appodeal.INTERSTITIAL);
                 blabla = true;
             }
             else

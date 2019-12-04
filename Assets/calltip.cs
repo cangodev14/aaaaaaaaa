@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Advertisements;
-using AppodealAds.Unity.Api;
+//using AppodealAds.Unity.Api;
 using UnityEngine.SocialPlatforms;
 
 public class calltip : MonoBehaviour {
@@ -27,7 +27,7 @@ public class calltip : MonoBehaviour {
     void Start () {
         
         string appKey = "1022fdde81346de19a5a74fa7d7857cc86a069d27207ddd4";
-        Appodeal.initialize(appKey, Appodeal.NON_SKIPPABLE_VIDEO, true);
+        //Appodeal.initialize(appKey, Appodeal.NON_SKIPPABLE_VIDEO, true);
         if (start.SSEC == true)
         {
             gameObject.SetActive(false);
@@ -36,10 +36,10 @@ public class calltip : MonoBehaviour {
     }
     public void ShowRewardedAd()
     {
-        if (Appodeal.isLoaded(Appodeal.NON_SKIPPABLE_VIDEO))
+       // if (Appodeal.isLoaded(Appodeal.NON_SKIPPABLE_VIDEO))
         {
 
-            Appodeal.show(Appodeal.NON_SKIPPABLE_VIDEO);
+         //   Appodeal.show(Appodeal.NON_SKIPPABLE_VIDEO);
             generator.podskazused = true;
             picked = true;
             tidun.Play();

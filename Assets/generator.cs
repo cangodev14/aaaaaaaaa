@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using AppodealAds.Unity.Api;
+//using AppodealAds.Unity.Api;
 
 public class generator : MonoBehaviour
 {
@@ -208,7 +208,7 @@ public class generator : MonoBehaviour
                 int randomchik = Random.Range(0, 5);
                 if (randomchik > 1)
                 {
-                    Appodeal.show(Appodeal.INTERSTITIAL);
+                   // Appodeal.show(Appodeal.INTERSTITIAL);
                 }
             }
 
@@ -218,7 +218,7 @@ public class generator : MonoBehaviour
             
             if (PlayerPrefs.GetInt("naebka") > 4)
             {
-                Appodeal.show(Appodeal.INTERSTITIAL);
+              //  Appodeal.show(Appodeal.INTERSTITIAL);
 
             }
         }
@@ -226,7 +226,7 @@ public class generator : MonoBehaviour
         {
             if (PlayerPrefs.GetInt("naebka") > 4)
             {
-                Appodeal.show(Appodeal.INTERSTITIAL);
+              //  Appodeal.show(Appodeal.INTERSTITIAL);
             }
         }
         if (questpoporyad == 11)

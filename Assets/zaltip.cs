@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Advertisements;
-using AppodealAds.Unity.Api;
+//using AppodealAds.Unity.Api;
 
 public class zaltip : MonoBehaviour {
     public AudioSource tudin;
@@ -34,14 +34,14 @@ public class zaltip : MonoBehaviour {
     // Use this for initialization
     void Start () {
         string appKey = "1022fdde81346de19a5a74fa7d7857cc86a069d27207ddd4";
-        Appodeal.initialize(appKey, Appodeal.NON_SKIPPABLE_VIDEO, true);
+      //  Appodeal.initialize(appKey, Appodeal.NON_SKIPPABLE_VIDEO, true);
     }
     public void ShowRewardedAd()
     {
-        if (Appodeal.isLoaded(Appodeal.NON_SKIPPABLE_VIDEO))
+        //if (Appodeal.isLoaded(Appodeal.NON_SKIPPABLE_VIDEO))
         {
 
-            Appodeal.show(Appodeal.NON_SKIPPABLE_VIDEO);
+           // Appodeal.show(Appodeal.NON_SKIPPABLE_VIDEO);
             Debug.Log("The ad was successfully shown.");
             generator.podskazused = true;
             used = true;
