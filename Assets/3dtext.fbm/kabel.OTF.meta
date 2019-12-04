@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: f975348ae6db12947bb29e5217d9ec84
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Kabel Ult BT Cyrillic
+  fontNames:
+  - Kabel Ult BT Cyrillic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6754e9fd930e1a549a6c22bbe282431e, type: 3}
+  - {fileID: 12800000, guid: ca24772f82de2514e8372b17fb9e4bcf, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
